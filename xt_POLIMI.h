@@ -1,5 +1,6 @@
 #ifndef _XT_POLIMI_TARGET_H
 #define _XT_POLIMI_TARGET_H
+
 #include <linux/types.h>
 #define POLIMI_TARGET_MAX_STRING_SIZE 64
 
@@ -13,7 +14,6 @@ struct xt_polimi_info {
 	char			replString[POLIMI_TARGET_MAX_STRING_SIZE];
 	/*Size of replString*/
 	__u32			repl_len;
-
 };
 
 #endif /* _XT_POLIMI_TARGET_H */
